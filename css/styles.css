@@ -52,8 +52,7 @@ h3 {
 
 
 
-.header {
-   
+.header {   
 }
 
 .header-nav {
@@ -79,7 +78,6 @@ color: #2e2f42;
 }
 
 .header-menu-item {
-
 }
 
 .header-menu-link:hover,
@@ -88,6 +86,7 @@ color: #2e2f42;
 }
 
 /* Адреса хедера */
+
 .header-contacts {
     font-style: normal;
 }
