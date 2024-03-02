@@ -1,0 +1,212 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+body {
+font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #434455;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+
+h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+
+
+
+.header {
+   
+}
+
+.header-nav {
+   color: #2E2F42; 
+}
+
+.header-logo {
+font-family: Raleway,sans-serif;
+color: #4D5AE5;
+font-weight: 700;
+letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 117%;
+    text-transform: uppercase;
+}
+
+.header-logo-span {
+color: #2e2f42;
+}
+
+.header-menu-list {
+ font-weight: 500;
+}
+
+.header-menu-item {
+
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+/* Адреса хедера */
+.header-contacts {
+    font-style: normal;
+}
+
+.header-contacts-list {
+}
+
+.header-contacts-item {}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+ }
+
+/* Верхнє синє вікно */
+
+.hero {
+background: #2e2f42;
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.hero-button {
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background-color: #4d5ae5;
+        cursor: pointer;
+}
+button:hover,
+button:focus {
+    background-color: #404bbf;
+}
+
+
+/* Переваги */
+
+.advantages {}
+
+.advantages-title {}
+
+.advantages-list {}
+
+.advantage-list-item {}
+
+.advantage-item-title {}
+
+.advantage-item-text {
+    letter-spacing: 0.02em;
+}
+/* Наша команда */
+
+.ourteam {
+    background: #f4f4fd;
+}
+
+.ourteam-title {
+    text-align: center;
+}
+
+.ourteam-list {}
+
+.ourteam-item {
+    background: #fff;
+    }
+.ourteam-list-item-img {
+}
+
+.ourteam-item-title {}
+
+.ourteam-item-text {
+    letter-spacing: 0.02em;
+}
+/* Портфоліо команди */
+
+.ourportfolio {}
+
+.ourportfolio-title {
+    text-align: center;
+}
+
+.ourportfolio-list {}
+
+.ourportfolio-item {
+    background: #fff;
+}
+
+.ourportfolio-list-item-img {
+}
+
+.ourportfolio-item-title {}
+
+.ourportfolio-item-text {
+    letter-spacing: 0.02em;
+}
+/* Нижня частина сайту */
+
+.footer {
+    background: #2E2F42;
+}
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+    letter-spacing: 0.03em;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
