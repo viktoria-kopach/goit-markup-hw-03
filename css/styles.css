@@ -165,7 +165,6 @@ section {
     /* тут можливо помилка і потрібен спасе бетвін */
 }
 
-.header-menu-item {}
 
 .header-menu-link {
     display: flex;
@@ -179,17 +178,12 @@ section {
 
 /* Адреса хедера */
 
-.header-contacts {}
 
 .header-contacts-list {
     display: flex;
     font-style: normal;
     gap: 40px;
 }
-
-.header-contacts-item {}
-
-.header-contacts-link {}
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
@@ -199,13 +193,12 @@ section {
 /* Верхнє синє вікно */
 
 .hero-section {
-    border: 1px solid #000;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: #2e2f42;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    letter-spacing: 0.02em;
+    background-color: #2e2f42;
+    color: #ffffff;
+    line-height: 1.07;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -214,27 +207,21 @@ section {
     margin: 0 auto 48px;
 }
 
-.hero-container {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-}
 
 .hero-button {
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.04em;
+    min-width: 169px;
     color: #fff;
     background-color: #4d5ae5;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    
+    border: none;
     padding: 16px 32px;
-    margin: 0px 10px;
 }
 
 button:hover,
